@@ -1,0 +1,57 @@
+
+.header-contain{
+  width: 100%;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1{
+  padding-left: 15px;
+  color: rgb(23, 23, 158);
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav p{
+  padding: 15px;
+  font-size: 20px;
+  color: rgb(23, 23, 158);
+  font-weight: bold;
+}
+
+
+.box{
+  width: 100%;
+  position: relative;
+}
+
+.box-right {
+  margin-left: 50%;
+  width: 50%;
+}
+
+
+.text{
+  font-size: 70px;
+  display: inline;
+}
+
+.box-left{
+  margin-top: 550px;
+  margin-bottom: 50px;
+  width: 100%;
+  position: absolute;
+  z-index: -10;
+  font-size: 0;
+  line-height: 0;
+}
+
+.box1{
+  width: 70%;
+  height: 200px;
+  background-color: rgb(21, 21, 155);
+  margin-top: 5px;
+}
